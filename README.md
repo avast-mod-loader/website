@@ -1,8 +1,3 @@
-![AVaSt](assets/avast.png)
+# <img src="assets/avast.png" width="64" alt="AVaSt" /> AVaSt Website
 
-# AVaSt Website
-
----
-
-hi, coming soon
--mali
+hi, coming soon -mali
