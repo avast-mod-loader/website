@@ -1,6 +1,4 @@
-<div align="center">
-  <h1><img src="assets/avast.png" width="64" alt="AVaSt" align="middle" /> AVaSt Website</h1>
-</div>
+# <img src="assets/avast.png" width="32" alt="AVaSt" align="middle" /> AVaSt Website
 
 hi, coming soon
 
